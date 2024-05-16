@@ -11,7 +11,7 @@ namespace Trabalho_Grafos.IO
     abstract class Leitura
     {
 
-        public static void LerGrafo()
+        public static Grafo LerGrafo()
         {
 
             string filepath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Leitura", "input.txt");
@@ -31,6 +31,10 @@ namespace Trabalho_Grafos.IO
             }
             sr.Close();
             Grafo g = new Grafo(algoritimo, numeroVertice, matriz);
+
+            return g;
+
+        
             /*
                 int algoritimo = int.Parse(Console.ReadLine());
                 int numeroVertice = int.Parse(Console.ReadLine());
