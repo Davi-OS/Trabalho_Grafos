@@ -1,0 +1,15 @@
+C:\Users\davio\source\repos\Trabalho_Grafos\Trabalho_Grafos\bin\Debug\net8.0\Trabalho_Grafos.exe
+C:\Users\davio\source\repos\Trabalho_Grafos\Trabalho_Grafos\bin\Debug\net8.0\Trabalho_Grafos.deps.json
+C:\Users\davio\source\repos\Trabalho_Grafos\Trabalho_Grafos\bin\Debug\net8.0\Trabalho_Grafos.runtimeconfig.json
+C:\Users\davio\source\repos\Trabalho_Grafos\Trabalho_Grafos\bin\Debug\net8.0\Trabalho_Grafos.dll
+C:\Users\davio\source\repos\Trabalho_Grafos\Trabalho_Grafos\bin\Debug\net8.0\Trabalho_Grafos.pdb
+C:\Users\davio\source\repos\Trabalho_Grafos\Trabalho_Grafos\obj\Debug\net8.0\Trabalho_Grafos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\davio\source\repos\Trabalho_Grafos\Trabalho_Grafos\obj\Debug\net8.0\Trabalho_Grafos.AssemblyInfoInputs.cache
+C:\Users\davio\source\repos\Trabalho_Grafos\Trabalho_Grafos\obj\Debug\net8.0\Trabalho_Grafos.AssemblyInfo.cs
+C:\Users\davio\source\repos\Trabalho_Grafos\Trabalho_Grafos\obj\Debug\net8.0\Trabalho_Grafos.csproj.CoreCompileInputs.cache
+C:\Users\davio\source\repos\Trabalho_Grafos\Trabalho_Grafos\obj\Debug\net8.0\Trabalho_Grafos.dll
+C:\Users\davio\source\repos\Trabalho_Grafos\Trabalho_Grafos\obj\Debug\net8.0\refint\Trabalho_Grafos.dll
+C:\Users\davio\source\repos\Trabalho_Grafos\Trabalho_Grafos\obj\Debug\net8.0\Trabalho_Grafos.pdb
+C:\Users\davio\source\repos\Trabalho_Grafos\Trabalho_Grafos\obj\Debug\net8.0\Trabalho_Grafos.genruntimeconfig.cache
+C:\Users\davio\source\repos\Trabalho_Grafos\Trabalho_Grafos\obj\Debug\net8.0\ref\Trabalho_Grafos.dll
+C:\Users\davio\source\repos\Trabalho_Grafos\Trabalho_Grafos\bin\Debug\net8.0\Leitura\input.txt
