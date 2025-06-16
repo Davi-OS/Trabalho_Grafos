@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\davio\\source\\repos\\Trabalho_Grafos\\Trabalho_Grafos\\Trabalho_Grafos.csproj": {}
+    "C:\\Users\\davio\\OneDrive\\Área de Trabalho\\Trabalhos Faculdade\\Trabalho_Grafos\\Trabalho_Grafos.csproj": {}
   },
   "projects": {
-    "C:\\Users\\davio\\source\\repos\\Trabalho_Grafos\\Trabalho_Grafos\\Trabalho_Grafos.csproj": {
+    "C:\\Users\\davio\\OneDrive\\Área de Trabalho\\Trabalhos Faculdade\\Trabalho_Grafos\\Trabalho_Grafos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\davio\\source\\repos\\Trabalho_Grafos\\Trabalho_Grafos\\Trabalho_Grafos.csproj",
+        "projectUniqueName": "C:\\Users\\davio\\OneDrive\\Área de Trabalho\\Trabalhos Faculdade\\Trabalho_Grafos\\Trabalho_Grafos.csproj",
         "projectName": "Trabalho_Grafos",
-        "projectPath": "C:\\Users\\davio\\source\\repos\\Trabalho_Grafos\\Trabalho_Grafos\\Trabalho_Grafos.csproj",
+        "projectPath": "C:\\Users\\davio\\OneDrive\\Área de Trabalho\\Trabalhos Faculdade\\Trabalho_Grafos\\Trabalho_Grafos.csproj",
         "packagesPath": "C:\\Users\\davio\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\davio\\source\\repos\\Trabalho_Grafos\\Trabalho_Grafos\\obj\\",
+        "outputPath": "C:\\Users\\davio\\OneDrive\\Área de Trabalho\\Trabalhos Faculdade\\Trabalho_Grafos\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

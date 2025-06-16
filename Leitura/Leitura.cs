@@ -19,36 +19,26 @@ namespace Trabalho_Grafos.IO
             StreamReader sr = new StreamReader(filepath);
             
             int algoritimo = int.Parse(sr.ReadLine());
-            int numeroVertice = int.Parse(sr.ReadLine());
+            string[] ln = sr.ReadLine().Split(" ");
+            int numeroVertice = int.Parse(ln[0]);
+            int numeroAresta = int.Parse(ln[1]);
             int[,] matriz = new int[numeroVertice, numeroVertice];
-            for (int i = 0; i < numeroVertice; i++)
+            int[,] matrizPesos = new int[numeroVertice, numeroVertice];
+            List<Tuple<int, int, int>> Arestas = new List<Tuple<int, int, int>>();
+
+            for (int i = 0; i < numeroAresta; i++)
             {
-                string[] linha = sr.ReadLine().Split(" ");
-                for (int j = 0; j < numeroVertice; j++)
-                {
-                    matriz[i, j] = int.Parse(linha[j]);
-                }
+                ln = sr.ReadLine().Split(" ");
+                matriz[int.Parse(ln[0]),int.Parse(ln[1])] = 1;
+                matrizPesos[int.Parse(ln[0]), int.Parse(ln[1])]= int.Parse(ln[2]);
+                Arestas.Add(new Tuple<int, int, int>(int.Parse(ln[0]), int.Parse(ln[1]), int.Parse(ln[2])));
             }
+
             sr.Close();
-            Grafo g = new Grafo(algoritimo, numeroVertice, matriz);
+            Grafo g = new Grafo(algoritimo, numeroVertice,numeroAresta, matriz, matrizPesos,Arestas);
 
             return g;
 
-        
-            /*
-                int algoritimo = int.Parse(Console.ReadLine());
-                int numeroVertice = int.Parse(Console.ReadLine());
-                int[,] matriz = new int[numeroVertice, numeroVertice];
-                for (int i = 0; i < numeroVertice; i++)
-                {
-                    string[] linha = Console.ReadLine().Split(" ");
-                    for (int j = 0; j < numeroVertice; j++)
-                    {
-                        matriz[i, j] = int.Parse(linha[j]);
-                    }
-                }
-                Grafo g = new Grafo(algoritimo, numeroVertice, matriz);
-            */
         }
     }
 }
